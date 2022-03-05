@@ -9,6 +9,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
+/* HEADER AND NAV START */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
@@ -48,25 +49,27 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* PARAGRAPH FONT DEFAULT */
 p {
     font-size: 16px;
 }
 
+/* HERO START */
 .hero {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-.article-background {
-    background-color: rgb(182, 182, 182);
-    padding-top: 20px;
+/* ALIGNING ARTICLE AND ASIDE */
+.align {
+    margin-top: 30px;
 }
 
+/* ARTICLE START */
 .content {
     width: 75%;
     height: 75%;
@@ -101,12 +104,14 @@ article h2 {
     margin-left: 25px;
 }
 
+/* ASIDE START */
 aside {
     margin-right: 20px;
     padding: 20px;
+    clear: both;
     float: right;
     width: 20%;
-    height: 120%;
+    height: 100%;
     background-color: #2589bd;
 }
 
@@ -126,8 +131,8 @@ aside img {
     max-width: 150px;
 }
 
+/* FOOTER START */
 footer {
-    background-color: white;
     padding: 30px 30px;
     width: 100%;
     text-align: center;
