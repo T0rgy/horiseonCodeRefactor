@@ -15,7 +15,6 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     background-color: #2a607c;
     color: #ffffff;
-    text-decoration: none;
 }
 
 header h1 {
@@ -67,6 +66,7 @@ p {
 /* ALIGNING ARTICLE AND ASIDE */
 .align {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* ARTICLE START */
@@ -108,8 +108,8 @@ article h2 {
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
+    clear: both;
     width: 20%;
     height: 100%;
     background-color: #2589bd;
@@ -134,7 +134,7 @@ aside img {
 /* FOOTER START */
 footer {
     padding: 30px 30px;
-    width: 100%;
+    float: both;
     text-align: center;
 }
 
